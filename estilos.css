@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    background-image: url(circleyellow.jpg);
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 700px;
+}
+header img{
+    display: flex;
+    width: 500px;
+    height:500px; 
+    border-radius: 200px;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+header h1{
+    font-size: 90px;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(78, 248, 126);
+    text-shadow: 5px 4px 0 #ffffff;
+    position: absolute;
+    top: 300px;
+    right: 10px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+footer{
+    position:fixed;
+    top: 0px;
+    right: 0px;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    background-image: url(circleblue.jpg);
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    color: red;
+    display: inline-block;
+}
+nav ul li a {
+    color: rgb(19, 51, 37);
+    display: block;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+a:hover{
+    color: blue;
+}
+section{
+    width: 100%;
+    height: 110vh;
+    display: flex;
+
+flex-direction: column;
+justify-content: center;
+align-items: 0 0 10px rgba(0, 0, 0, 0.16);
+}
+div{
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+}
+h2{
+    text-align: center;
+}
+h2 a{
+    color: rgb(14, 215, 101);
+    padding: 20px 50px;
+    text-shadow: 2px 2px 0 #ffffff;
+    border:dashed 1px;
+    text-decoration: dashed;
+    align-items: center;
+    width: 40px;
+    margin: 15px;
+    height: 15px;
+
+}
+.text{
+    font: 16px;
+    color:rgb(30, 199, 0);
+    text-align: center;
+    
+}
+.titulo{
+    font: 16px;
+    color: rgb(78, 248, 126);
+    text-align: center;
+    
+    text-decoration: dashed;
+    align-items: center;
+}
+section:nth-of-type(1) {
+    background-image: url(circlenotblue.jpg);
+    background-size: cover;
+}
+section:nth-of-type(2) {
+    background-image: url(circlegreen.png);
+    background-size: cover;
+}
+section:nth-of-type(3) {
+    background-image: url(circlenotblue.jpg);
+    background-size: cover;
+}
+section:nth-of-type(4) {
+    background-image: url(circlegreen.png);
+    background-size: cover;
+}
